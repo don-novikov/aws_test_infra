@@ -13,12 +13,7 @@ server {
         access_log off;
         return 200 'OK\n';
         add_header Content-Type text/plain;
-    }
-    
-    # Можно добавить заглушку для остальных запросов
-    location / {
-        return 404 'Not Found\n';
-    }
+    } 
 }
 EOF
 

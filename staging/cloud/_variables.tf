@@ -1,5 +1,4 @@
 variable "aws_region" {}
-variable "subnet_id" {}
 variable "vpc_id" {}
 variable "public_subnets" {}
 variable "private_subnets" {}
